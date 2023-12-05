@@ -142,10 +142,10 @@ main {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-#profile form{
-    display: flex;
-    flex-direction: column;
-  }
+#profile form {
+  display: flex;
+  flex-direction: column;
+}
 
 #textaco {
   margin-top: 5%;
@@ -180,6 +180,11 @@ main {
   flex-wrap: wrap;
   align-items: center;
 }
+img {
+  display: block;
+  max-width: 70%;
+  height: auto;
+}
 
 #caja-card {
   width: auto;
@@ -198,15 +203,31 @@ main {
 }
 
 #centrar-contacto {
-    display: flex;
-    width: 35%;
-    margin-left: 35%;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  width: 35%;
+  margin-left: 35%;
+  flex-direction: column;
+  align-items: center;
 }
 
-#centrar-contacto form{
-    display: flex;
-    width: 30%;
-    flex-direction: column;
+#centrar-contacto form {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+#card-carrito {
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin: 2vw;
+  padding: 2vw;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+#centrar-carrito {
+  display: flex;
 }

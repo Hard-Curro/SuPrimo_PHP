@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         exit;
 
     } else {
-        header("Location: ../controller/LoginController.php");  
+        header("Location: ../controller/LoginController.php");
         exit;
     }
     $pdo = null;
