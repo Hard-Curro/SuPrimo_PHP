@@ -1,0 +1,212 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("/view/assets/background.jpg");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+main {
+  display: flex;
+}
+
+.header {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#cart-icon {
+  width: 30px;
+  height: 30px;
+  fill: #fff;
+}
+
+#center {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#sidebar {
+  background-color: #333;
+  width: 6vw;
+  height: 100%;
+  padding: 1vw;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #fff;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#content {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  margin-left: 8vw;
+}
+
+#caja {
+  width: 13vw;
+  height: 20vw;
+  background-color: white;
+  margin-top: 2vw;
+  padding: 2vw;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+#caja:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+#caja img {
+  max-width: 10vw;
+  max-height: 10vw;
+}
+
+.credenciales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#quest {
+  color: #fff;
+}
+#quest a {
+  color: rgb(255, 0, 0);
+}
+
+.formularios_credenciales {
+  background-color: #f5f5f5;
+  border: 1px solid #9c9c9c;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 5px;
+  padding: 3vh;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #fff;
+  max-width: 30%;
+  max-height: 70%;
+  margin-top: 10%;
+  margin-left: 36%;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#profile form{
+    display: flex;
+    flex-direction: column;
+  }
+
+#textaco {
+  margin-top: 5%;
+  max-width: 55%;
+  padding: 1%;
+  max-height: 20%;
+  border-radius: 10px;
+  margin-left: 25%;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#cardAbout {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#card {
+  background-color: aliceblue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  margin-left: 8vw;
+  margin-top: 5%;
+  padding: 1%;
+  max-width: 70%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#caja-card {
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-top: 2vw;
+  padding: 2vw;
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+#organizar {
+  display: flex;
+}
+
+#centrar-contacto {
+    display: flex;
+    width: 35%;
+    margin-left: 35%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#centrar-contacto form{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
