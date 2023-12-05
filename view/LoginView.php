@@ -20,7 +20,8 @@
             <input class="imp_espaciado" type="password" name="password">
             <input class="botones" id="centrar_boton" type="submit" value="Entrar">
         </form>
-        <p id="quest">You do not have an account?<a href="RegisterController.php" class="botones"><strong>Sign up</strong></a></p>
+        <p id="quest">You do not have an account?<a href="RegisterController.php" class="botones"><strong>Sign
+                    up</strong></a></p>
     </div>
 </body>
 

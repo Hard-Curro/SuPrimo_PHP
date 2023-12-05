@@ -1,6 +1,7 @@
-<?php 
+<?php
 
-class User {
+class User
+{
     protected $id;
     protected $Usuario;
     protected $Password;
@@ -9,8 +10,9 @@ class User {
     public $Gmail;
     public $floor;
 
-    
-    public function __construct($id, $Usuario, $Password, $address, $phone, $Gmail, $floor) {
+
+    public function __construct($id, $Usuario, $Password, $address, $phone, $Gmail, $floor)
+    {
         $this->id = $id;
         $this->Usuario = $Usuario;
         $this->Password = $Password;
@@ -23,10 +25,11 @@ class User {
     }
 
 
-    public function __get($atributo) {
+    public function __get($atributo)
+    {
         return $this->$atributo;
     }
-    
+
 }
 
 ?>
